@@ -59,7 +59,7 @@ const ContactForm = () => {
       </Modal>
 
       <div className='w-screen flex flex-col items-center justify-center pt-8'>
-        <img src='src/assets/call.svg' />
+        <img src='./src/assets/call.png' />
         <h2 className='font-bold text-4xl text-white'>Contact Form</h2>
 
         <div className='mx-7 md:w-1/3 h-auto mt-8'>
