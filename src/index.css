@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: rgb(214,42,174);
+  background: linear-gradient(135deg, rgba(214,42,174,1) 0%, rgba(112,34,201,1) 32%, rgba(27,57,217,1) 73%, rgba(72,159,193,1) 100%);
+  background-repeat: no-repeat;
+  background-size: contain;
+  font-family: 'Gabarito';
+}
+
+#root {
+  height: 100vh;
+}
