@@ -23,12 +23,17 @@ const ContactForm = () => {
       setChildText('Please fill in all the fields so we can contact you')
       setIsModalOpen(true)
       return
-    } else if (phone.length != 14) {
+    }
+    if (phone.length != 14) {
       setChildText('Please enter a valid phone number')
       setIsModalOpen(true)
-    } else if (!email.includes('@') || !email.includes('.')) {
+      return
+    }
+    if (!email.includes('@') || !email.includes('.')) {
+      console.log(email)
       setChildText('Please enter a valid email')
       setIsModalOpen(true)
+      return
     }
 
     setChildText(
